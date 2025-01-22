@@ -1,0 +1,16 @@
+> project menggunakan Typecript
+
+> management package menggunakan pnpm
+
+> pnpm install --save-dev ts-node    => library untuk menjalakanakan proyek typescript tampan compilasi
+
+    ===== command pertama sudah siap ( hanya butuh perbaikan ke depanya ) =========
+    pnpm exec ts-node src/app.ts --help  => menggunkan pnpm
+
+    pnpm exec ts-node src/app.ts ping google.com => contoh mengetes ke google.com
+
+    npx tsc  => build ke /dist
+
+>Gunakan layanan dari nmap untuk typescript
+scanme.nmap.org
+

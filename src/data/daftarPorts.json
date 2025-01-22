@@ -1,0 +1,328 @@
+{
+  "ports": [
+    {
+      "port": 20,
+      "protocol": "TCP",
+      "service": "FTP (Data)",
+      "description": "Port untuk transfer data FTP."
+    },
+    {
+      "port": 21,
+      "protocol": "TCP",
+      "service": "FTP (Control)",
+      "description": "Port untuk kontrol koneksi FTP."
+    },
+    {
+      "port": 22,
+      "protocol": "TCP",
+      "service": "SSH",
+      "description": "Port untuk koneksi Secure Shell (SSH), digunakan untuk remote access."
+    },
+    {
+      "port": 25,
+      "protocol": "TCP",
+      "service": "SMTP",
+      "description": "Port untuk pengiriman email (Simple Mail Transfer Protocol)."
+    },
+    {
+      "port": 53,
+      "protocol": "TCP/UDP",
+      "service": "DNS",
+      "description": "Port untuk layanan Domain Name System (DNS)."
+    },
+    {
+      "port": 67,
+      "protocol": "UDP",
+      "service": "DHCP (Server)",
+      "description": "Port untuk server DHCP (Dynamic Host Configuration Protocol)."
+    },
+    {
+      "port": 68,
+      "protocol": "UDP",
+      "service": "DHCP (Client)",
+      "description": "Port untuk client DHCP."
+    },
+    {
+      "port": 80,
+      "protocol": "TCP",
+      "service": "HTTP",
+      "description": "Port untuk layanan web (Hypertext Transfer Protocol)."
+    },
+    {
+      "port": 110,
+      "protocol": "TCP",
+      "service": "POP3",
+      "description": "Port untuk mengambil email (Post Office Protocol version 3)."
+    },
+    {
+      "port": 123,
+      "protocol": "UDP",
+      "service": "NTP",
+      "description": "Port untuk sinkronisasi waktu (Network Time Protocol)."
+    },
+    {
+      "port": 135,
+      "protocol": "TCP/UDP",
+      "service": "MS RPC",
+      "description": "Port untuk Microsoft Remote Procedure Call."
+    },
+    {
+      "port": 137,
+      "protocol": "TCP/UDP",
+      "service": "NetBIOS Name Service",
+      "description": "Port untuk layanan nama NetBIOS."
+    },
+    {
+      "port": 138,
+      "protocol": "TCP/UDP",
+      "service": "NetBIOS Datagram Service",
+      "description": "Port untuk layanan datagram NetBIOS."
+    },
+    {
+      "port": 139,
+      "protocol": "TCP/UDP",
+      "service": "NetBIOS Session Service",
+      "description": "Port untuk layanan sesi NetBIOS."
+    },
+    {
+      "port": 143,
+      "protocol": "TCP",
+      "service": "IMAP",
+      "description": "Port untuk mengakses email (Internet Message Access Protocol)."
+    },
+    {
+      "port": 161,
+      "protocol": "UDP",
+      "service": "SNMP",
+      "description": "Port untuk Simple Network Management Protocol (SNMP)."
+    },
+    {
+      "port": 162,
+      "protocol": "UDP",
+      "service": "SNMP Trap",
+      "description": "Port untuk SNMP Trap."
+    },
+    {
+      "port": 389,
+      "protocol": "TCP/UDP",
+      "service": "LDAP",
+      "description": "Port untuk Lightweight Directory Access Protocol (LDAP)."
+    },
+    {
+      "port": 443,
+      "protocol": "TCP",
+      "service": "HTTPS",
+      "description": "Port untuk layanan web aman (HTTP Secure)."
+    },
+    {
+      "port": 445,
+      "protocol": "TCP",
+      "service": "SMB",
+      "description": "Port untuk Server Message Block (SMB), digunakan untuk berbagi file."
+    },
+    {
+      "port": 465,
+      "protocol": "TCP",
+      "service": "SMTPS",
+      "description": "Port untuk SMTP over SSL (pengiriman email aman)."
+    },
+    {
+      "port": 514,
+      "protocol": "UDP",
+      "service": "Syslog",
+      "description": "Port untuk layanan logging (Syslog)."
+    },
+    {
+      "port": 587,
+      "protocol": "TCP",
+      "service": "SMTP Submission",
+      "description": "Port alternatif untuk pengiriman email (SMTP Submission)."
+    },
+    {
+      "port": 636,
+      "protocol": "TCP/UDP",
+      "service": "LDAPS",
+      "description": "Port untuk LDAP over SSL (LDAP Secure)."
+    },
+    {
+      "port": 993,
+      "protocol": "TCP",
+      "service": "IMAPS",
+      "description": "Port untuk IMAP over SSL (IMAP Secure)."
+    },
+    {
+      "port": 995,
+      "protocol": "TCP",
+      "service": "POP3S",
+      "description": "Port untuk POP3 over SSL (POP3 Secure)."
+    },
+    {
+      "port": 1433,
+      "protocol": "TCP",
+      "service": "MS SQL Server",
+      "description": "Port untuk Microsoft SQL Server."
+    },
+    {
+      "port": 1521,
+      "protocol": "TCP",
+      "service": "Oracle Database",
+      "description": "Port untuk Oracle Database."
+    },
+    {
+      "port": 2049,
+      "protocol": "TCP/UDP",
+      "service": "NFS",
+      "description": "Port untuk Network File System (NFS)."
+    },
+    {
+      "port": 2082,
+      "protocol": "TCP",
+      "service": "cPanel",
+      "description": "Port untuk akses cPanel (default)."
+    },
+    {
+      "port": 2083,
+      "protocol": "TCP",
+      "service": "cPanel (SSL)",
+      "description": "Port untuk akses cPanel aman (SSL)."
+    },
+    {
+      "port": 2086,
+      "protocol": "TCP",
+      "service": "WHM",
+      "description": "Port untuk WebHost Manager (WHM)."
+    },
+    {
+      "port": 2087,
+      "protocol": "TCP",
+      "service": "WHM (SSL)",
+      "description": "Port untuk WebHost Manager aman (SSL)."
+    },
+    {
+      "port": 2095,
+      "protocol": "TCP",
+      "service": "Webmail",
+      "description": "Port untuk akses webmail."
+    },
+    {
+      "port": 2096,
+      "protocol": "TCP",
+      "service": "Webmail (SSL)",
+      "description": "Port untuk akses webmail aman (SSL)."
+    },
+    {
+      "port": 2181,
+      "protocol": "TCP",
+      "service": "Apache ZooKeeper",
+      "description": "Port untuk Apache ZooKeeper."
+    },
+    {
+      "port": 2375,
+      "protocol": "TCP",
+      "service": "Docker",
+      "description": "Port untuk Docker API (tidak aman)."
+    },
+    {
+      "port": 2376,
+      "protocol": "TCP",
+      "service": "Docker (SSL)",
+      "description": "Port untuk Docker API aman (SSL)."
+    },
+    {
+      "port": 3000,
+      "protocol": "TCP",
+      "service": "Node.js",
+      "description": "Port default untuk aplikasi Node.js."
+    },
+    {
+      "port": 3306,
+      "protocol": "TCP",
+      "service": "MySQL",
+      "description": "Port untuk MySQL Database."
+    },
+    {
+      "port": 3389,
+      "protocol": "TCP",
+      "service": "RDP",
+      "description": "Port untuk Remote Desktop Protocol (RDP)."
+    },
+    {
+      "port": 5432,
+      "protocol": "TCP",
+      "service": "PostgreSQL",
+      "description": "Port untuk PostgreSQL Database."
+    },
+    {
+      "port": 5900,
+      "protocol": "TCP",
+      "service": "VNC",
+      "description": "Port untuk Virtual Network Computing (VNC)."
+    },
+    {
+      "port": 5984,
+      "protocol": "TCP",
+      "service": "CouchDB",
+      "description": "Port untuk CouchDB."
+    },
+    {
+      "port": 6379,
+      "protocol": "TCP",
+      "service": "Redis",
+      "description": "Port untuk Redis Database."
+    },
+    {
+      "port": 8080,
+      "protocol": "TCP",
+      "service": "HTTP Alternatif",
+      "description": "Port alternatif untuk layanan web."
+    },
+    {
+      "port": 8443,
+      "protocol": "TCP",
+      "service": "HTTPS Alternatif",
+      "description": "Port alternatif untuk layanan web aman."
+    },
+    {
+      "port": 8888,
+      "protocol": "TCP",
+      "service": "phpMyAdmin",
+      "description": "Port default untuk phpMyAdmin."
+    },
+    {
+      "port": 9000,
+      "protocol": "TCP",
+      "service": "Portainer",
+      "description": "Port untuk Portainer (manajemen Docker)."
+    },
+    {
+      "port": 9090,
+      "protocol": "TCP",
+      "service": "Prometheus",
+      "description": "Port untuk Prometheus (monitoring)."
+    },
+    {
+      "port": 9200,
+      "protocol": "TCP",
+      "service": "Elasticsearch",
+      "description": "Port untuk Elasticsearch."
+    },
+    {
+      "port": 9300,
+      "protocol": "TCP",
+      "service": "Elasticsearch (Cluster)",
+      "description": "Port untuk komunikasi cluster Elasticsearch."
+    },
+    {
+      "port": 27017,
+      "protocol": "TCP",
+      "service": "MongoDB",
+      "description": "Port default untuk MongoDB."
+    }
+  ],
+  "notes": [
+    "Port 0-1023: Port yang dikenal sebagai 'well-known ports' dan biasanya digunakan untuk layanan sistem.",
+    "Port 1024-49151: Port terdaftar (registered ports) yang digunakan oleh aplikasi atau layanan tertentu.",
+    "Port 49152-65535: Port dinamis (ephemeral ports) yang digunakan untuk koneksi sementara."
+  ],
+  "reference": "Daftar lengkap port dan layanan dapat ditemukan di [IANA Service Name and Transport Protocol Port Number Registry](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)."
+}
