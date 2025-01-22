@@ -2,16 +2,50 @@
 
 tools command line yang di buat dengan node js untuk Networking
 
---cek host atau banyak Host dengan port yg terbuak
+gunakan pnpm , install dengan npm
 
 ```bash
-
-
+    npm install pnpm
 ```
 
-## Daftar port scanning
+install dependensi yang di gunakan
 
-### Daftar Port Penting untuk Website dan Layanan Terkait
+```bash
+    pnpm install
+```
+
+## DAFTAR PERINTAH
+
+### Command **ping**
+
+> ping akan melakukan koneksi ke server web-site atau IP dan menampilkan IP Target serta port yang terbuka
+
+menjalankan langsung menggunakan typescript langsung dengan ts-node
+
+```bash
+    pnpm exec ts-node src/app.ts ping google.com
+```
+
+atau beberapa perintah sekaligus
+
+```bash
+    pnpm exec ts-node src/app.ts ping "google.com,yaho.com,youtube.com"
+```
+
+jika menjalankan dengan node js , built terlebih dahulu dengan typescript dan hasilnya ada di folder dist
+
+```bash
+    npx tsc
+    cd dist
+```
+
+lalu jalnakan
+
+```bash
+    node dist/app ping google.com
+```
+
+### Daftar Port yang akan di scanning untuk Website dan Layanan Terkait
 
 | **Port** | **Protokol** | **Layanan/Judul**        | **Deskripsi**                                                         |
 | -------- | ------------ | ------------------------ | --------------------------------------------------------------------- |
